@@ -77,11 +77,7 @@ git clone https://github.com/chenxiao-reverie/xiaoxu-plus-skill.git \
   .agents/skills/xiaoxu-plus
 ```
 
-或用通用安装器：
-
-```bash
-npx skills add chenxiao-reverie/xiaoxu-plus-skill -g --copy
-```
+> 注意目标目录**必须叫 `xiaoxu-plus`**（与 `SKILL.md` 里的 `name` 字段一致），否则部分宿主无法加载。本仓库把 `SKILL.md` 放在根目录，克隆时请显式指定目录名。
 
 ### 按平台安装
 
